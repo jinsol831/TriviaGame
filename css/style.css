@@ -1,0 +1,66 @@
+body {
+    background-image: url("../images/1.jpg");
+    color: white;
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    background-attachment: fixed; /* force image to stay put */
+}
+
+#container {
+    width: 60%;
+    background: gray;
+    margin: 20px auto;
+    overflow: auto;
+    padding: 25px;
+    text-align: center;
+    opacity: 0.8;
+    font-family: 'Gamja Flower', cursive;
+    font-size: 25px;
+}
+
+header {
+    text-align: center;
+    border-bottom: dotted 2px black;
+    padding-top: 20px;
+    font-family: 'Gamja Flower', cursive;
+}
+
+header h1 {
+    margin-top:30px 0;
+    padding: 0;
+    font-size: 150px;
+}
+
+header p {
+    padding: 0;
+    margin-top: 5px;
+    color: white;
+    font-size: 30px;
+
+}
+
+section {
+    min-height: 400px;
+}
+
+footer {
+    text-align: center;
+}
+
+input[type='submit']{
+    background: white;
+    border: 0;
+    cursor: pointer;
+}
+
+#results b3 {
+    background: gold;
+    padding: 10px;
+    margin: 10px 0;
+
+}
+
+#results span {
+    color: #000;
+
+}

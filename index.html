@@ -1,0 +1,87 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Breed Trivia!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <!-- <script src="js/game.js"></script> -->
+    <link href="https://fonts.googleapis.com/css?family=Gamja+Flower" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1>Doodle Trivia!</h1>
+            <p>Test your knowledge in your favorite <strong>Poodle breeds!</strong></p>
+
+            <div id="show-number"></div>
+        </header>
+
+        <section>
+                <div class = "container">
+                        <div class = "jumbotron titleBox">
+                            <br>
+                            <div class = "timer">
+                                <button class = "btn startButton">Start</button>                            
+                                <h2 id="done"></h2>
+            
+        
+            <div class="questions">
+            <form name="quiz" onsubmit="return submitAnswers()">
+                <h3>1. What breed is a Goldendooodle mixed with, "A Poodle + "?</h3>
+                <input type="radio" name="q1" value="a" id="q1a">a. An Old English Sheepdog <br>
+                <input type="radio" name="q1" value="b" id="q1b">b. Golden Retreiver <br>
+                <input type="radio" name="q1" value="c" id="q1c">c. Labrador <br>
+                <input type="radio" name="q1" value="d" id="q1d">d. The Aussie <br>
+
+                <h3>2. What breed is a Labradoodle mixed with, "A Poodle + "?</h3>
+                <input type="radio" name="q2" value="a" id="q2a">a. An Old English Sheepdog <br>
+                <input type="radio" name="q2" value="b" id="q2b">b. Golden Retreiver <br>
+                <input type="radio" name="q2" value="c" id="q2c">c. Labrador <br>
+                <input type="radio" name="q2" value="d" id="q2d">d. The Aussie <br>
+                
+                <h3>3. What breed is a Sheepadoodle mixed with "A Poodle + "?</h3>
+                <input type="radio" name="q3" value="a" id="q3a">a. An Old English Sheepdog <br>
+                <input type="radio" name="q3" value="b" id="q3b">b. Golden Retreiver <br>
+                <input type="radio" name="q3" value="c" id="q3c">c. Labrador <br>
+                <input type="radio" name="q3" value="d" id="q3d">d. The Aussie <br>
+
+                <h3>4. What breed is a Aussidoodle mixed with "A Poodle + "?</h3>
+                <input type="radio" name="q4" value="a" id="q4a">a. An Old English Sheepdog <br>
+                <input type="radio" name="q4" value="b" id="q4b">b. Golden Retreiver <br>
+                <input type="radio" name="q4" value="c" id="q4c">c. Labrador <br>
+                <input type="radio" name="q4" value="d" id="q4d">d. The Aussie <br>
+
+                <h3>5. What breed is a Bernedoodle mixed with "A Poodle + "?</h3>
+                <input type="radio" name="q5" value="a" id="q5a">a. An Old English Sheepdog <br>
+                <input type="radio" name="q5" value="b" id="q5b">b. Labrador <br>
+                <input type="radio" name="q5" value="c" id="q5c">b. Golden Retreiver <br>
+                <input type="radio" name="q5" value="d" id="q5d">d. The Bernese Mountain Dog <br>
+            <br> <br>
+            <input type="submit" class="submitButton" value="Submit Answers">
+            
+        </form>
+    </div>
+
+            <div class="results">
+                <p id= "correct"> Correct Answers</p>
+                <p id= "wrong"> Wrong Answers</p>
+                <p id= "unanswered"> Unanswered Answers</p>
+
+                <br>
+
+            </div>
+        </section>
+
+        <footer>
+            <p>Copyright &copy; Jenny Won</p>
+        </footer>
+
+
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script rel="script" type-"text/javascript" src="js/game.js"></script>
+
+</body>
+</html>
